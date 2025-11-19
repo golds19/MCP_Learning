@@ -1,0 +1,19 @@
+# Core Dependencies
+mcp>=0.1.0              # Model Context Protocol library (REQUIRED)
+
+# UI Application
+streamlit>=1.28.0       # Streamlit web app for testing (REQUIRED for streamlit_app.py)
+
+# Optional: LLM Providers (install only what you need)
+# openai>=1.0.0         # For OpenAI GPT-4/GPT-3.5 integration
+# anthropic>=0.7.0      # For Anthropic Claude integration (currently disabled)
+# httpx>=0.24.0         # For Ollama local LLM integration
+
+# Optional: Data handling for Streamlit
+pandas>=2.0.0           # For timestamps in Streamlit app
+
+# Notes:
+# 1. MCP and Streamlit are REQUIRED
+# 2. LLM providers are optional - uncomment only what you'll use
+# 3. For Google Calendar: Node.js + NPX required (separate installation)
+# 4. Python 3.8+ required
